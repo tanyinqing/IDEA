@@ -25,6 +25,10 @@ img {
     margin-left: 20px;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 td {
     border-left: none;
     border-right: none;
@@ -74,4 +78,8 @@ td {
 
 b {
     color: #f00;
+}
+
+tr.extra {
+    font-style: italic;
 }
